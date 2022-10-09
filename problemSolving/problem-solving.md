@@ -27,7 +27,7 @@ output: [ "hi", "." ]
   - ### Since its a dictionary, it will not copy duplicates
   - ### Duplicates are not needed here
 - ### The function then selects a number in the array **depending on if has a value of true in the dictionary**
-  - ### ***If no true values are left, the for loop ends and the longestRange os returned***
+  - ### ***If no true values are left, the for loop ends and the longestRange is returned***
 - ### If a true value is indexed over, it is set to false and becomes the starting number in the range (currentLength = 1)
 - ### **2 while loops** then check if values **+/- 1 (right/left)** of the current value exists
   - ### If a value is found on either side, that value is set to false in the dictionary, the currentLength increases + 1, and the while loop continues
